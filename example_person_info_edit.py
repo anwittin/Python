@@ -4,7 +4,7 @@ height = 71 #inches
 weight = 180 #lbs
 eyes = 'Blue'
 teeth = 'White'
-hair = 'Very little'.lower()
+hair = 'Very lITtle'.lower()
 
 def heightConvert(x):
 	heightCM = height * 2.54
