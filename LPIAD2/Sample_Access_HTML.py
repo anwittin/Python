@@ -1,12 +1,44 @@
-import urllib2
+import urllib2, progressbar, csv, os
 from bs4 import BeautifulSoup
+from progressbar import Bar
+
+# The path to the script
+currentPath = os.path.dirname(os.path.abspath("__file__"))
+
+# make the spreadsheet
+outputCsv = currentPath + '/members.csv'
+
+# open the file
+csvFile = open(outputCsv, "wb")
+
+# Create writer object
+writer = csv.writer(csvFile, delimiter=',')
+
 
 def extractMData(webpage):
     soup = BeautifulSoup(webpage, "html.parser")
-    print soup.title
+
+    # Find all the div blocks
+    divBlock = soup.findAll("div", {"class": "block"})
+    info = divBlock[3]
+    # Extract info_left and info_right divs
+    getLeft = info.findAll("div", {"class": "info_left"})
+    getRight = info.findAll("div", {"class": "info_right"})
+    getLeftArr = []
+    getRightArr = []
+
+    for i in range(0, len(getLeft)):
+        textLeft = getLeft[i].get_text()
+        textRight = getRight[i].get_text()
+        getLeftArr.append(textLeft)
+        getRightArr.append(textRight)
+    return [getLeftArr, getRightArr]
+
 
 # Open Webpage
 webpage = urllib2.urlopen("http://inadaybooks.com/justiceleague")
+
+# Convert to BeautifulSoup
 soup = BeautifulSoup(webpage, "html.parser")
 
 # Show the HTML Code from the a webpage
@@ -14,22 +46,36 @@ soup = BeautifulSoup(webpage, "html.parser")
 # print soup.body
 
 # Get the contents of container div
-divContainer = soup.find("div", {"id":"container"})
-divBlock = divContainer.findAll("div", {"class":"block"})
-divSep = divBlock[3].findAll("div", {"class":"separator"})
+divContainer = soup.find("div", {"id": "container"})
+divBlock = divContainer.findAll("div", {"class": "block"})
+divSep = divBlock[3].findAll("div", {"class": "separator"})
 members = divSep[3].findAll("a")
+
+nMembers = len(members)
+bar = progressbar.ProgressBar(nMembers)
+
+
+count = 0
 
 # Loop through members
 for member in members:
-    #Strip <a> tags
+    # Strip <a> tags
     href = member.get("href")
     # Create url Open
-    url = "http://inadaybooks.com/justiceleague/" +href
+    url = "http://inadaybooks.com/justiceleague/" + href
     # Open the url
     mPage = urllib2.urlopen(url)
-    extractMData(mPage)
-    # print member.get("title")
-    # print member.get("href")
 
 
-# print divContainer
+    data = extractMData(mPage)
+    if count == 0:
+        writer.writerow(data[0])
+
+    writer.writerow(data[1])
+
+
+    # Increment count
+count += 1
+
+    # Update progress bar
+bar.update(count)
