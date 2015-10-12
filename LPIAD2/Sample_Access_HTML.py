@@ -52,12 +52,6 @@ divSep = divBlock[3].findAll("div", {"class": "separator"})
 members = divSep[3].findAll("a")
 
 nMembers = len(members)
-bar = ProgressBar(widgets=[Percentage(), Bar()], maxval=nMembers).start()
-for i in range (nMembers):
-	time.sleep(0.01)
-	bar.update(i+1)
-bar.finish()
-
 
 count = 0
 
@@ -81,5 +75,10 @@ for member in members:
     # Increment count
 count += 1
 
-    # Update progress bar
-bar.update(count)
+# Progress bar
+bar = ProgressBar(widgets=[Percentage(), Bar()], maxval=nMembers).start()
+for i in range (nMembers):
+	time.sleep(0.5)
+	bar.update(count)
+bar.finish()
+
