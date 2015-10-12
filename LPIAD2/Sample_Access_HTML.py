@@ -1,6 +1,6 @@
-import urllib2, progressbar, csv, os
+import urllib2, progressbar, csv, os, time
 from bs4 import BeautifulSoup
-from progressbar import Bar
+from progressbar import Bar, ProgressBar, Percentage
 
 # The path to the script
 currentPath = os.path.dirname(os.path.abspath("__file__"))
@@ -52,7 +52,11 @@ divSep = divBlock[3].findAll("div", {"class": "separator"})
 members = divSep[3].findAll("a")
 
 nMembers = len(members)
-bar = progressbar.ProgressBar(nMembers)
+bar = ProgressBar(widgets=[Percentage(), Bar()], maxval=nMembers).start()
+for i in range (nMembers):
+	time.sleep(0.01)
+	bar.update(i+1)
+bar.finish()
 
 
 count = 0
