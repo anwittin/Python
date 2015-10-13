@@ -64,7 +64,6 @@ for member in members:
     # Open the url
     mPage = urllib2.urlopen(url)
 
-
     data = extractMData(mPage)
     if count == 0:
         writer.writerow(data[0])
@@ -76,7 +75,7 @@ for member in members:
 count += 1
 
 # Progress bar
-bar = ProgressBar(widgets=[Percentage(), Bar()], maxval=nMembers).start()
+bar = ProgressBar(widgets=['Superhero List Building: ', Percentage(), Bar()], maxval=nMembers).start()
 for i in range (nMembers):
 	time.sleep(0.5)
 	bar.update(count)
