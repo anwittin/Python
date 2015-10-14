@@ -213,6 +213,7 @@ def mainLoop():
 		# If answer does not equal 'y;, exit loop
 		if again != 'y':
 			in_loop = False
+			return
 
 
 createTable()		
