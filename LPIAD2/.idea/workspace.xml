@@ -44,8 +44,8 @@
       <file leaf-file-name="database_exercise1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database_exercise1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.685811">
-              <caret line="44" column="15" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="15" />
+            <state vertical-scroll-proportion="2.2347972">
+              <caret line="231" column="0" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -79,9 +79,9 @@
         <option value="$PROJECT_DIR$/GUI_exp1.py" />
         <option value="$PROJECT_DIR$/GUI_Widgets.py" />
         <option value="$PROJECT_DIR$/Test Widget.py" />
-        <option value="$PROJECT_DIR$/database_exercise1.py" />
         <option value="$PROJECT_DIR$/GUI_database.py" />
         <option value="$PROJECT_DIR$/GUI_Database_App.py" />
+        <option value="$PROJECT_DIR$/database_exercise1.py" />
       </list>
     </option>
   </component>
@@ -391,7 +391,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="835" y="0" width="532" height="728" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25723472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -488,8 +488,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database_exercise1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.685811">
-          <caret line="44" column="15" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="15" />
+        <state vertical-scroll-proportion="2.2347972">
+          <caret line="231" column="0" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
           <folding />
         </state>
       </provider>

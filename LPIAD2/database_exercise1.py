@@ -229,7 +229,7 @@ mainLoop()
         # If answer does not equal 'y;, exit loop
         if again != 'y':
             in_loop = False
->>>>>>> ec87f844606e3f0be89203cf37f8e4a65a85b277
+
 
 
 createTable()
