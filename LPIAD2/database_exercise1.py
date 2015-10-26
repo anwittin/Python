@@ -200,6 +200,24 @@ def options():
 
 
 def mainLoop():
+<<<<<<< HEAD
+	in_loop = True
+	while in_loop == True:
+		# Run options function
+		options()
+		# Ask user if they want to continue
+		again = raw_input(\
+		'Would you like to do something else? (y/n) ')
+		
+		# If answer does not equal 'y;, exit loop
+		if again != 'y':
+			in_loop = False
+			return
+
+
+createTable()		
+mainLoop()
+=======
     in_loop = True
     while in_loop == True:
         # Run options function
@@ -211,6 +229,7 @@ def mainLoop():
         # If answer does not equal 'y;, exit loop
         if again != 'y':
             in_loop = False
+>>>>>>> ec87f844606e3f0be89203cf37f8e4a65a85b277
 
 
 createTable()
