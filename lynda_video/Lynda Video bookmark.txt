@@ -1,0 +1,2 @@
+lynda video python 3 essentials 
+	chapter 12. Understanding Inheritance
