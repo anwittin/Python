@@ -5,7 +5,7 @@ import time
 # establish the times for each location
 t1 = DT.datetime.fromtimestamp(time.time()).strftime('%H:%M:%S')
 t2 = DT.datetime.fromtimestamp(time.time()) + timedelta(hours=3)
-t3 = datetime.now() + timedelta(hours=8)
+t3 = DT.datetime.fromtimestamp(time.time()) + timedelta(hours=8)
 print "The time in Portland is: %s." % t1
 # New York time check
 estpm = t2.replace(hour=21, minute=0, second=0)
