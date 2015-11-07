@@ -1,5 +1,5 @@
-import shutil
-import os, time
+import shutil, os
+
 
 
 dest = "C:\\Users\\tonywittingerllc\\Desktop\\Folder B\\"
