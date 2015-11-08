@@ -110,6 +110,7 @@ class Frame(wx.Frame):
 
         self.fillListCtrl()
     def exitProgram(self, event):
+	
         self.Destroy()
 
     def fillListCtrl(self):

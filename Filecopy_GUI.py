@@ -19,19 +19,21 @@ class Frame(wx.Frame):
 		self.SetMenuBar(menuBar)
 		self.Bind(wx.EVT_MENU, self.exitProgram, exitItem)
 		
-		self.CreateStatusBar()
+		
 		
 				
 		# Buttons
-		browseSrc = wx.Button(panel, label="Source", pos = (20, 27))
+		browseSrc = wx.Button(panel, label="Source", pos = (20, 10))
 		browseSrc.Bind(wx.EVT_BUTTON, self.onOpenFile)
 		
-		browseDst = wx.Button(panel, label="Destination", pos = (20, 87))
+		browseDst = wx.Button(panel, label="Destination", pos = (20, 50))
 		browseDst.Bind(wx.EVT_BUTTON, self.onOpenFile)
 		
-		manualChk = wx.Button(panel, label = "Manually Check", pos = (20, 147))
+		manualChk = wx.Button(panel, label = "Manually Check", pos = (20, 90))
 		manualChk.Bind(wx.EVT_BUTTON, self.manualCheck)
 		
+		# Status window for manual file check
+		self.listCtrl = wx.ListCtrl(panel, size=(350, 90), pos = (20, 130), style = wx.LC_REPORT)
 		
 	def onOpenFile(self, event):
 		"""
