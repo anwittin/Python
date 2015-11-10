@@ -37,7 +37,6 @@ class Frame(wx.Frame):
         save = wx.Button(panel, label="Create Character", pos=(100, 185))
         save.Bind(wx.EVT_BUTTON, self.updateCharacter)
 
-
         # Setup update character
 
         wx.StaticBox(panel, label='Add Character', pos=(20, 240), size=(280, 190))
@@ -57,8 +56,6 @@ class Frame(wx.Frame):
         # Save button
         save = wx.Button(panel, label="Update Character", pos=(100, 420))
         save.Bind(wx.EVT_BUTTON, self.updateCharacter)
-
-
 
         # Setup the Table UI
         # Setup table as listCtrl
@@ -81,13 +78,11 @@ class Frame(wx.Frame):
         # Bind the delete button to onDelete functino
         deleteBtn.Bind(wx.EVT_BUTTON, self.onDelete)
 
-
     def addCharacter(self, event):
         name = self.sName.GetValue()
         gen = self.sGen.GetValue()
         age = self.sAge.GetValue()
         occ = self.sOcc.GetValue()
-
 
         # Checking if variables have values
         if (name == '') or (gen == '') or (age == '') or (occ == ''):
@@ -106,7 +101,6 @@ class Frame(wx.Frame):
         self.sGen.Clear()
         self.sAge.SetValue(0)
         self.sOcc.Clear()
-
 
         self.fillListCtrl()
     def exitProgram(self, event):
@@ -129,8 +123,6 @@ class Frame(wx.Frame):
         self.fillListCtrl()
     def updateCharacter(self, event):
         pass
-
-
 
 app = wx.App()
 frame = Frame("Python GUI")
