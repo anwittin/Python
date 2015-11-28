@@ -5,7 +5,7 @@ def main():
     start()
 
 def start():
-    print "Hellp and welcome to nice or mean!"
+    print "Hello and welcome to nice or mean!"
     name = raw_input("What's your name? : ")
     print "Hi and welcome, "+name+"!"
     print "In this game, you will be greeted by several different people, you can be nice or mean."

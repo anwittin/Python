@@ -4,6 +4,12 @@ import datetime as DT, time
 # Connect to filecopy database
 conn = sqlite3.connect('filecopy.db')
 
+class RedirectText:
+	def __init__(self, aWxTextCtrl):
+		self.out = aWxTextCtrl
+	def write(self, string):
+		self.out.WriteText(string)
+
 def createTable():
 	conn.execute("CREATE TABLE if not exists \
 			FILECOPY_INFO( \
@@ -13,21 +19,22 @@ def createTable():
 createTable()
 
 def selectManData():
-		# Create search string
-		manData = "SELECT MOD_DATE from FILECOPY_INFO WHERE ID =(SELECT MAX(ID) FROM FILECOPY_INFO)"
-		cursor = conn.execute(manData)
-		# get data from table
-		mData = [float(record[0]) for record in cursor.fetchall()]
-		print mData.strftime('%H:%M:%S')
-		return mData
+	# Create search string
+	manData = "SELECT MOD_DATE from FILECOPY_INFO WHERE ID =(SELECT MAX(ID) FROM FILECOPY_INFO)"
+	cursor = conn.execute(manData)
+	global mData
+	# get data from table 
+	for record in cursor.fetchall():
+		mData = float(record[0])	
+	return mData
 		
 selectManData()
 
-class RedirectText:
-	def __init__(self, aWxTextCtrl):
-		self.out = aWxTextCtrl
-	def write(self, string):
-		self.out.WriteText(string)
+manChkTime = DT.datetime.fromtimestamp(mData)
+mT1 =  manChkTime.strftime('%H:%M:%S %m/%d/%Y')
+
+
+
 		
 class Frame(wx.Frame):
 	def __init__(self, title):
@@ -60,7 +67,7 @@ class Frame(wx.Frame):
 		
 		# Manual file check status 
 		wx.StaticText(panel, label='Last Manual File Check:', pos=(120, 95))
-		manChk = wx.TextCtrl(panel, wx.ID_ANY, size=(120, -1), pos=(245, 90))
+		manChk = wx.TextCtrl(panel, wx.ID_ANY, style=wx.TE_READONLY, size=(120, -1), pos=(245, 90), value = '%s' % mT1) 
 		
 		# Status window for manual file check
 		log = wx.TextCtrl(panel, wx.ID_ANY, style=wx.TE_MULTILINE|wx.TE_READONLY|wx.HSCROLL, size=(370, 100), pos=(10, 130))
@@ -72,8 +79,8 @@ class Frame(wx.Frame):
 		
 		#redirect the text
 		redir = RedirectText(log)
-		sys.stdout=redir
-		#manout = mData.strftime('%H:%M:%S')RedirectText(manChk)
+		sys.stdout = redir
+		
 		
 	def onOpenFile(self, event):
 		"""
