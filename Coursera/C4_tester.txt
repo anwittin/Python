@@ -1,0 +1,788 @@
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST> Heater
+<TEST> Lamps
+<TEST> Red BL
+<TEST> Blue BL
+<TEST> ALS
+<TEST> Pin I/O
+<TEST> Board Temp
+Testing Complete
+<TIME_sec>  51 </TIME_sec>
+<VDD>  526 </VDD>
+<VDR>  1199 </VDR>
+<BT >  66, 67, 1 </BT >
+<ALS>  15, 914, 1 </ALS>
+<BLR>  20, 1 </BLR>
+<BLB>  20, 1 </BLB>
+<PIN>  6, 1047, 1 </PIN>
+<PIN>  7, 1047, 1 </PIN>
+<PIN>  8, 1009, 1 </PIN>
+<PIN>  10, 1020, 1 </PIN>
+<PIN>  11, 985, 1 </PIN>
+<PIN>  12, 991, 1 </PIN>
+<PIN>  14, 1015, 1 </PIN>
+<PIN>  15, 962, 1 </PIN>
+<CLRA>  0, 750, 1 </CLRA>
+<CLRB>  0, 810, 2 </CLRB>
+<CLRC>  0, 620, 2 </CLRC>
+<CLRA>  1, 550, 2 </CLRA>
+<CLRB>  1, 550, 2 </CLRB>
+<CLRC>  1, 550, 2 </CLRC>
+<CLRA>  2, 600, 2 </CLRA>
+<CLRB>  2, 600, 2 </CLRB>
+<CLRC>  2, 600, 2 </CLRC>
+<CLRA>  3, 555, 2 </CLRA>
+<CLRB>  3, 555, 2 </CLRB>
+<CLRC>  3, 555, 2 </CLRC>
+<CLRA>  4, 555, 2 </CLRA>
+<CLRB>  4, 555, 2 </CLRB>
+<CLRC>  4, 555, 2 </CLRC>
+<CLRA>  5, 550, 2 </CLRA>
+<CLRB>  5, 550, 2 </CLRB>
+<CLRC>  5, 550, 0 </CLRC>
+<CLRA>  6, 550, 2 </CLRA>
+<CLRB>  6, 550, 2 </CLRB>
+<CLRC>  6, 550, 0 </CLRC>
+<CLRA>  7, 555, 2 </CLRA>
+<CLRB>  7, 555, 2 </CLRB>
+<CLRC>  7, 555, 0 </CLRC>
+<CLRA>  8, 560, 2 </CLRA>
+<CLRB>  8, 560, 0 </CLRB>
+<CLRC>  8, 560, 0 </CLRC>
+<CLRA>  9, 550, 2 </CLRA>
+<CLRB>  9, 550, 0 </CLRB>
+<CLRC>  9, 550, 2 </CLRC>
+<CLRA>  10, 605, 2 </CLRA>
+<CLRB>  10, 605, 2 </CLRB>
+<CLRC>  10, 605, 0 </CLRC>
+<CLRA>  11, 565, 2 </CLRA>
+<CLRB>  11, 560, 2 </CLRB>
+<CLRC>  11, 560, 2 </CLRC>
+<CLRA>  12, 555, 2 </CLRA>
+<CLRB>  12, 555, 2 </CLRB>
+<CLRC>  12, 555, 0 </CLRC>
+<CLRA>  13, 545, 2 </CLRA>
+<CLRB>  13, 545, 2 </CLRB>
+<CLRC>  13, 545, 2 </CLRC>
+<CLRA>  14, 550, 2 </CLRA>
+<CLRB>  14, 550, 2 </CLRB>
+<CLRC>  14, 550, 0 </CLRC>
+<CLRA>  15, 560, 2 </CLRA>
+<CLRB>  15, 560, 2 </CLRB>
+<CLRC>  15, 575, 2 </CLRC>
+<CLRA>  16, 555, 2 </CLRA>
+<CLRB>  16, 555, 2 </CLRB>
+<CLRC>  16, 555, 2 </CLRC>
+<CLRA>  17, 625, 2 </CLRA>
+<CLRB>  17, 625, 0 </CLRB>
+<CLRC>  17, 625, 1 </CLRC>
+<CLRA_>  15, 560, 2 </CLRA_>
+<CLRB_>  15, 560, 2 </CLRB_>
+<CLRC_>  15, 575, 2 </CLRC_>
+<CLRA_>  16, 555, 2 </CLRA_>
+<CLRB_>  16, 555, 2 </CLRB_>
+<CLRC_>  16, 555, 2 </CLRC_>
+<CLRA_>  17, 625, 2 </CLRA_>
+<CLRB_>  17, 625, 0 </CLRB_>
+<CLRC_>  17, 625, 1 </CLRC_>
+<ERROR> P003 </ERROR>
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST>  Error
+Failed state: 5ù
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST>  Error
+Failed state: 5ù
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST>  Error
+Failed state: 5ù
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST> Heater
+<TEST> Lamps
+<TEST> Red BL
+<TEST> Blue BL
+<TEST> ALS
+<TEST> Pin I/O
+<TEST> Board Temp
+Testing Complete
+<TIME_sec>  53 </TIME_sec>
+<VDD>  526 </VDD>
+<VDR>  1199 </VDR>
+<BT >  61, 64, 1 </BT >
+<ALS>  18, 919, 1 </ALS>
+<BLR>  20, 1 </BLR>
+<BLB>  20, 1 </BLB>
+<PIN>  6, 1043, 1 </PIN>
+<PIN>  7, 1047, 1 </PIN>
+<PIN>  8, 1020, 1 </PIN>
+<PIN>  10, 1015, 1 </PIN>
+<PIN>  11, 994, 1 </PIN>
+<PIN>  12, 988, 1 </PIN>
+<PIN>  14, 1015, 1 </PIN>
+<PIN>  15, 958, 1 </PIN>
+<CLRA>  0, 750, 1 </CLRA>
+<CLRB>  0, 810, 2 </CLRB>
+<CLRC>  0, 615, 2 </CLRC>
+<CLRA>  1, 550, 2 </CLRA>
+<CLRB>  1, 550, 2 </CLRB>
+<CLRC>  1, 550, 2 </CLRC>
+<CLRA>  2, 600, 2 </CLRA>
+<CLRB>  2, 600, 2 </CLRB>
+<CLRC>  2, 600, 2 </CLRC>
+<CLRA>  3, 555, 2 </CLRA>
+<CLRB>  3, 555, 2 </CLRB>
+<CLRC>  3, 555, 2 </CLRC>
+<CLRA>  4, 555, 2 </CLRA>
+<CLRB>  4, 555, 2 </CLRB>
+<CLRC>  4, 555, 2 </CLRC>
+<CLRA>  5, 550, 2 </CLRA>
+<CLRB>  5, 550, 2 </CLRB>
+<CLRC>  5, 550, 0 </CLRC>
+<CLRA>  6, 550, 2 </CLRA>
+<CLRB>  6, 550, 2 </CLRB>
+<CLRC>  6, 550, 0 </CLRC>
+<CLRA>  7, 560, 2 </CLRA>
+<CLRB>  7, 560, 2 </CLRB>
+<CLRC>  7, 560, 0 </CLRC>
+<CLRA>  8, 560, 2 </CLRA>
+<CLRB>  8, 560, 0 </CLRB>
+<CLRC>  8, 560, 0 </CLRC>
+<CLRA>  9, 550, 2 </CLRA>
+<CLRB>  9, 550, 0 </CLRB>
+<CLRC>  9, 550, 2 </CLRC>
+<CLRA>  10, 605, 2 </CLRA>
+<CLRB>  10, 605, 2 </CLRB>
+<CLRC>  10, 605, 0 </CLRC>
+<CLRA>  11, 565, 2 </CLRA>
+<CLRB>  11, 565, 2 </CLRB>
+<CLRC>  11, 565, 2 </CLRC>
+<CLRA>  12, 555, 2 </CLRA>
+<CLRB>  12, 555, 2 </CLRB>
+<CLRC>  12, 555, 0 </CLRC>
+<CLRA>  13, 550, 2 </CLRA>
+<CLRB>  13, 550, 2 </CLRB>
+<CLRC>  13, 550, 2 </CLRC>
+<CLRA>  14, 550, 2 </CLRA>
+<CLRB>  14, 550, 2 </CLRB>
+<CLRC>  14, 550, 0 </CLRC>
+<CLRA>  15, 560, 2 </CLRA>
+<CLRB>  15, 560, 2 </CLRB>
+<CLRC>  15, 575, 2 </CLRC>
+<CLRA>  16, 560, 2 </CLRA>
+<CLRB>  16, 560, 2 </CLRB>
+<CLRC>  16, 560, 2 </CLRC>
+<CLRA>  17, 625, 2 </CLRA>
+<CLRB>  17, 625, 0 </CLRB>
+<CLRC>  17, 625, 1 </CLRC>
+<CLRA_>  15, 560, 2 </CLRA_>
+<CLRB_>  15, 560, 2 </CLRB_>
+<CLRC_>  15, 575, 2 </CLRC_>
+<CLRA_>  16, 560, 2 </CLRA_>
+<CLRB_>  16, 560, 2 </CLRB_>
+<CLRC_>  16, 560, 2 </CLRC_>
+<CLRA_>  17, 625, 2 </CLRA_>
+<CLRB_>  17, 625, 0 </CLRB_>
+<CLRC_>  17, 625, 1 </CLRC_>
+<ERROR> P003 </ERROR>
+<ERROR> P010 </ERROR>
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST> Heater
+<TEST> Lamps
+<TEST> Red BL
+<TEST> Blue BL
+<TEST> ALS
+<TEST> Pin I/O
+<TEST> Board Temp
+Testing Complete
+<TIME_sec>  51 </TIME_sec>
+<VDD>  526 </VDD>
+<VDR>  1199 </VDR>
+<BT >  65, 66, 1 </BT >
+<ALS>  18, 919, 1 </ALS>
+<BLR>  20, 1 </BLR>
+<BLB>  20, 1 </BLB>
+<PIN>  6, 1045, 1 </PIN>
+<PIN>  7, 1051, 1 </PIN>
+<PIN>  8, 1023, 1 </PIN>
+<PIN>  10, 1018, 1 </PIN>
+<PIN>  11, 994, 1 </PIN>
+<PIN>  12, 988, 1 </PIN>
+<PIN>  14, 1018, 1 </PIN>
+<PIN>  15, 958, 1 </PIN>
+<CLRA>  0, 400, 2 </CLRA>
+<CLRB>  0, 810, 2 </CLRB>
+<CLRC>  0, 615, 2 </CLRC>
+<CLRA>  1, 550, 2 </CLRA>
+<CLRB>  1, 550, 2 </CLRB>
+<CLRC>  1, 550, 2 </CLRC>
+<CLRA>  2, 600, 2 </CLRA>
+<CLRB>  2, 605, 2 </CLRB>
+<CLRC>  2, 605, 2 </CLRC>
+<CLRA>  3, 555, 2 </CLRA>
+<CLRB>  3, 555, 2 </CLRB>
+<CLRC>  3, 555, 2 </CLRC>
+<CLRA>  4, 555, 2 </CLRA>
+<CLRB>  4, 555, 2 </CLRB>
+<CLRC>  4, 555, 2 </CLRC>
+<CLRA>  5, 550, 2 </CLRA>
+<CLRB>  5, 550, 2 </CLRB>
+<CLRC>  5, 555, 0 </CLRC>
+<CLRA>  6, 550, 2 </CLRA>
+<CLRB>  6, 550, 2 </CLRB>
+<CLRC>  6, 550, 0 </CLRC>
+<CLRA>  7, 560, 2 </CLRA>
+<CLRB>  7, 560, 2 </CLRB>
+<CLRC>  7, 560, 0 </CLRC>
+<CLRA>  8, 560, 2 </CLRA>
+<CLRB>  8, 560, 0 </CLRB>
+<CLRC>  8, 560, 0 </CLRC>
+<CLRA>  9, 550, 2 </CLRA>
+<CLRB>  9, 550, 0 </CLRB>
+<CLRC>  9, 550, 2 </CLRC>
+<CLRA>  10, 605, 2 </CLRA>
+<CLRB>  10, 605, 2 </CLRB>
+<CLRC>  10, 605, 0 </CLRC>
+<CLRA>  11, 565, 2 </CLRA>
+<CLRB>  11, 565, 2 </CLRB>
+<CLRC>  11, 565, 2 </CLRC>
+<CLRA>  12, 555, 2 </CLRA>
+<CLRB>  12, 555, 2 </CLRB>
+<CLRC>  12, 555, 0 </CLRC>
+<CLRA>  13, 550, 2 </CLRA>
+<CLRB>  13, 550, 2 </CLRB>
+<CLRC>  13, 550, 2 </CLRC>
+<CLRA>  14, 550, 2 </CLRA>
+<CLRB>  14, 550, 2 </CLRB>
+<CLRC>  14, 550, 0 </CLRC>
+<CLRA>  15, 560, 2 </CLRA>
+<CLRB>  15, 560, 2 </CLRB>
+<CLRC>  15, 575, 2 </CLRC>
+<CLRA>  16, 560, 2 </CLRA>
+<CLRB>  16, 560, 2 </CLRB>
+<CLRC>  16, 560, 2 </CLRC>
+<CLRA>  17, 625, 2 </CLRA>
+<CLRB>  17, 625, 0 </CLRB>
+<CLRC>  17, 625, 1 </CLRC>
+<CLRA_>  15, 560, 2 </CLRA_>
+<CLRB_>  15, 560, 2 </CLRB_>
+<CLRC_>  15, 575, 2 </CLRC_>
+<CLRA_>  16, 560, 2 </CLRA_>
+<CLRB_>  16, 560, 2 </CLRB_>
+<CLRC_>  16, 560, 2 </CLRC_>
+<CLRA_>  17, 625, 2 </CLRA_>
+<CLRB_>  17, 625, 0 </CLRB_>
+<CLRC_>  17, 625, 1 </CLRC_>
+<ERROR> P003 </ERROR>
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST>  Error
+Failed state: 5ù
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST>  Error
+Failed state: 5
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST>  Error
+Failed state: 5ù
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST>  Error
+Failed state: 5ù
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST>  Error
+Failed state: 5ù
+Press button to start test
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST> Heater
+<TEST> Lamps
+<TEST> Red BL
+<TEST> Blue BL
+<TEST> ALS
+<TEST> Pin I/O
+<TEST> Board Temp
+Testing Complete
+<TIME_sec> 51 </TIME_sec>
+<VDD> 526 </VDD>
+<VDR> 1199 </VDR>
+<BT > 65, 66, 1 </BT >
+<ALS> 17, 916, 1 </ALS>
+<BLR> 20, 1 </BLR>
+<BLB> 20, 1 </BLB>
+<PIN> 6, 1045, 1 </PIN>
+<PIN> 7, 1045, 1 </PIN>
+<PIN> 8, 1017, 1 </PIN>
+<PIN> 10, 1017, 1 </PIN>
+<PIN> 11, 992, 1 </PIN>
+<PIN> 12, 1004, 1 </PIN>
+<PIN> 14, 1017, 1 </PIN>
+<PIN> 15, 967, 1 </PIN>
+<CLRA> 0, 400, 2 </CLRA>
+<CLRB> 0, 810, 2 </CLRB>
+<CLRC> 0, 615, 2 </CLRC>
+<CLRA> 1, 555, 2 </CLRA>
+<CLRB> 1, 555, 2 </CLRB>
+<CLRC> 1, 555, 2 </CLRC>
+<CLRA> 2, 605, 2 </CLRA>
+<CLRB> 2, 605, 2 </CLRB>
+<CLRC> 2, 605, 2 </CLRC>
+<CLRA> 3, 555, 2 </CLRA>
+<CLRB> 3, 555, 2 </CLRB>
+<CLRC> 3, 555, 2 </CLRC>
+<CLRA> 4, 555, 2 </CLRA>
+<CLRB> 4, 555, 2 </CLRB>
+<CLRC> 4, 555, 2 </CLRC>
+<CLRA> 5, 555, 2 </CLRA>
+<CLRB> 5, 555, 2 </CLRB>
+<CLRC> 5, 555, 0 </CLRC>
+<CLRA> 6, 555, 2 </CLRA>
+<CLRB> 6, 555, 2 </CLRB>
+<CLRC> 6, 555, 0 </CLRC>
+<CLRA> 7, 560, 2 </CLRA>
+<CLRB> 7, 560, 2 </CLRB>
+<CLRC> 7, 560, 0 </CLRC>
+<CLRA> 8, 560, 2 </CLRA>
+<CLRB> 8, 560, 0 </CLRB>
+<CLRC> 8, 560, 0 </CLRC>
+<CLRA> 9, 550, 2 </CLRA>
+<CLRB> 9, 550, 0 </CLRB>
+<CLRC> 9, 550, 2 </CLRC>
+<CLRA> 10, 605, 2 </CLRA>
+<CLRB> 10, 605, 2 </CLRB>
+<CLRC> 10, 605, 0 </CLRC>
+<CLRA> 11, 565, 2 </CLRA>
+<CLRB> 11, 565, 2 </CLRB>
+<CLRC> 11, 565, 2 </CLRC>
+<CLRA> 12, 555, 2 </CLRA>
+<CLRB> 12, 555, 2 </CLRB>
+<CLRC> 12, 555, 0 </CLRC>
+<CLRA> 13, 550, 2 </CLRA>
+<CLRB> 13, 550, 2 </CLRB>
+<CLRC> 13, 550, 2 </CLRC>
+<CLRA> 14, 550, 2 </CLRA>
+<CLRB> 14, 550, 2 </CLRB>
+<CLRC> 14, 550, 0 </CLRC>
+<CLRA> 15, 565, 2 </CLRA>
+<CLRB> 15, 565, 2 </CLRB>
+<CLRC> 15, 580, 2 </CLRC>
+<CLRA> 16, 560, 2 </CLRA>
+<CLRB> 16, 560, 2 </CLRB>
+<CLRC> 16, 560, 2 </CLRC>
+<CLRA> 17, 625, 2 </CLRA>
+<CLRB> 17, 625, 0 </CLRB>
+<CLRC> 17, 625, 1 </CLRC>
+<CLRA_> 15, 565, 2 </CLRA_>
+<CLRB_> 15, 565, 2 </CLRB_>
+<CLRC_> 15, 580, 2 </CLRC_>
+<CLRA_> 16, 560, 2 </CLRA_>
+<CLRB_> 16, 560, 2 </CLRB_>
+<CLRC_> 16, 560, 2 </CLRC_>
+<CLRA_> 17, 625, 2 </CLRA_>
+<CLRB_> 17, 625, 0 </CLRB_>
+<CLRC_> 17, 625, 1 </CLRC_>
+<ERROR> P003 </ERROR>
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST>  Error
+Failed state: 5ù
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST> Heater
+<TEST> Lamps
+<TEST> Red BL
+<TEST> Blue BL
+<TEST> ALS
+<TEST> Pin I/O
+<TEST> Board Temp
+Testing Complete
+<TIME_sec> 52 </TIME_sec>
+<VDD> 526 </VDD>
+<VDR> 1199 </VDR>
+<BT > 63, 64, 1 </BT >
+<ALS> 18, 917, 1 </ALS>
+<BLR> 20, 1 </BLR>
+<BLB> 20, 1 </BLB>
+<PIN> 6, 1047, 1 </PIN>
+<PIN> 7, 1047, 1 </PIN>
+<PIN> 8, 1015, 1 </PIN>
+<PIN> 10, 1015, 1 </PIN>
+<PIN> 11, 996, 1 </PIN>
+<PIN> 12, 996, 1 </PIN>
+<PIN> 14, 1019, 1 </PIN>
+<PIN> 15, 968, 1 </PIN>
+<CLRA> 0, 750, 1 </CLRA>
+<CLRB> 0, 810, 2 </CLRB>
+<CLRC> 0, 615, 2 </CLRC>
+<CLRA> 1, 555, 2 </CLRA>
+<CLRB> 1, 555, 2 </CLRB>
+<CLRC> 1, 555, 2 </CLRC>
+<CLRA> 2, 605, 2 </CLRA>
+<CLRB> 2, 605, 2 </CLRB>
+<CLRC> 2, 605, 2 </CLRC>
+<CLRA> 3, 555, 2 </CLRA>
+<CLRB> 3, 555, 2 </CLRB>
+<CLRC> 3, 555, 2 </CLRC>
+<CLRA> 4, 555, 2 </CLRA>
+<CLRB> 4, 555, 2 </CLRB>
+<CLRC> 4, 555, 2 </CLRC>
+<CLRA> 5, 555, 2 </CLRA>
+<CLRB> 5, 555, 2 </CLRB>
+<CLRC> 5, 555, 0 </CLRC>
+<CLRA> 6, 555, 2 </CLRA>
+<CLRB> 6, 555, 2 </CLRB>
+<CLRC> 6, 555, 0 </CLRC>
+<CLRA> 7, 560, 2 </CLRA>
+<CLRB> 7, 560, 2 </CLRB>
+<CLRC> 7, 560, 0 </CLRC>
+<CLRA> 8, 560, 2 </CLRA>
+<CLRB> 8, 560, 0 </CLRB>
+<CLRC> 8, 560, 0 </CLRC>
+<CLRA> 9, 550, 2 </CLRA>
+<CLRB> 9, 550, 0 </CLRB>
+<CLRC> 9, 550, 2 </CLRC>
+<CLRA> 10, 605, 2 </CLRA>
+<CLRB> 10, 610, 2 </CLRB>
+<CLRC> 10, 610, 0 </CLRC>
+<CLRA> 11, 565, 2 </CLRA>
+<CLRB> 11, 565, 2 </CLRB>
+<CLRC> 11, 565, 2 </CLRC>
+<CLRA> 12, 555, 2 </CLRA>
+<CLRB> 12, 555, 2 </CLRB>
+<CLRC> 12, 555, 0 </CLRC>
+<CLRA> 13, 550, 2 </CLRA>
+<CLRB> 13, 550, 2 </CLRB>
+<CLRC> 13, 550, 2 </CLRC>
+<CLRA> 14, 550, 2 </CLRA>
+<CLRB> 14, 550, 2 </CLRB>
+<CLRC> 14, 550, 0 </CLRC>
+<CLRA> 15, 565, 2 </CLRA>
+<CLRB> 15, 565, 2 </CLRB>
+<CLRC> 15, 580, 2 </CLRC>
+<CLRA> 16, 560, 2 </CLRA>
+<CLRB> 16, 560, 2 </CLRB>
+<CLRC> 16, 560, 2 </CLRC>
+<CLRA> 17, 625, 2 </CLRA>
+<CLRB> 17, 625, 0 </CLRB>
+<CLRC> 17, 625, 1 </CLRC>
+<CLRA_> 15, 565, 2 </CLRA_>
+<CLRB_> 15, 565, 2 </CLRB_>
+<CLRC_> 15, 580, 2 </CLRC_>
+<CLRA_> 16, 560, 2 </CLRA_>
+<CLRB_> 16, 560, 2 </CLRB_>
+<CLRC_> 16, 560, 2 </CLRC_>
+<CLRA_> 17, 625, 2 </CLRA_>
+<CLRB_> 17, 625, 0 </CLRB_>
+<CLRC_> 17, 625, 1 </CLRC_>
+<ERROR> P003 </ERROR>
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST>  Error
+Failed state: 5ù
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST> Heater
+<TEST> Lamps
+<TEST> Red BL
+<TEST> Blue BL
+<TEST> ALS
+<TEST> Pin I/O
+<TEST> Board Temp
+Testing Complete
+<TIME_sec> 54 </TIME_sec>
+<VDD> 526 </VDD>
+<VDR> 1199 </VDR>
+<BT > 66, 67, 1 </BT >
+<ALS> 18, 918, 1 </ALS>
+<BLR> 20, 1 </BLR>
+<BLB> 20, 1 </BLB>
+<PIN> 6, 1045, 1 </PIN>
+<PIN> 7, 1039, 1 </PIN>
+<PIN> 8, 1018, 1 </PIN>
+<PIN> 10, 1023, 1 </PIN>
+<PIN> 11, 990, 1 </PIN>
+<PIN> 12, 984, 1 </PIN>
+<PIN> 14, 1023, 1 </PIN>
+<PIN> 15, 957, 1 </PIN>
+<CLRA> 0, 400, 2 </CLRA>
+<CLRB> 0, 810, 2 </CLRB>
+<CLRC> 0, 615, 2 </CLRC>
+<CLRA> 1, 555, 2 </CLRA>
+<CLRB> 1, 555, 2 </CLRB>
+<CLRC> 1, 555, 2 </CLRC>
+<CLRA> 2, 605, 2 </CLRA>
+<CLRB> 2, 605, 2 </CLRB>
+<CLRC> 2, 605, 2 </CLRC>
+<CLRA> 3, 555, 2 </CLRA>
+<CLRB> 3, 555, 2 </CLRB>
+<CLRC> 3, 555, 2 </CLRC>
+<CLRA> 4, 555, 2 </CLRA>
+<CLRB> 4, 555, 2 </CLRB>
+<CLRC> 4, 555, 2 </CLRC>
+<CLRA> 5, 555, 2 </CLRA>
+<CLRB> 5, 555, 2 </CLRB>
+<CLRC> 5, 555, 0 </CLRC>
+<CLRA> 6, 555, 2 </CLRA>
+<CLRB> 6, 555, 2 </CLRB>
+<CLRC> 6, 555, 0 </CLRC>
+<CLRA> 7, 560, 2 </CLRA>
+<CLRB> 7, 560, 2 </CLRB>
+<CLRC> 7, 560, 0 </CLRC>
+<CLRA> 8, 560, 2 </CLRA>
+<CLRB> 8, 560, 0 </CLRB>
+<CLRC> 8, 560, 0 </CLRC>
+<CLRA> 9, 550, 2 </CLRA>
+<CLRB> 9, 550, 0 </CLRB>
+<CLRC> 9, 550, 2 </CLRC>
+<CLRA> 10, 610, 2 </CLRA>
+<CLRB> 10, 610, 2 </CLRB>
+<CLRC> 10, 610, 0 </CLRC>
+<CLRA> 11, 565, 2 </CLRA>
+<CLRB> 11, 565, 2 </CLRB>
+<CLRC> 11, 565, 2 </CLRC>
+<CLRA> 12, 555, 2 </CLRA>
+<CLRB> 12, 555, 2 </CLRB>
+<CLRC> 12, 555, 0 </CLRC>
+<CLRA> 13, 550, 2 </CLRA>
+<CLRB> 13, 550, 2 </CLRB>
+<CLRC> 13, 550, 2 </CLRC>
+<CLRA> 14, 550, 2 </CLRA>
+<CLRB> 14, 550, 2 </CLRB>
+<CLRC> 14, 550, 0 </CLRC>
+<CLRA> 15, 565, 2 </CLRA>
+<CLRB> 15, 565, 2 </CLRB>
+<CLRC> 15, 580, 2 </CLRC>
+<CLRA> 16, 560, 2 </CLRA>
+<CLRB> 16, 560, 2 </CLRB>
+<CLRC> 16, 560, 2 </CLRC>
+<CLRA> 17, 625, 2 </CLRA>
+<CLRB> 17, 625, 0 </CLRB>
+<CLRC> 17, 625, 1 </CLRC>
+<CLRA_> 15, 565, 2 </CLRA_>
+<CLRB_> 15, 565, 2 </CLRB_>
+<CLRC_> 15, 580, 2 </CLRC_>
+<CLRA_> 16, 560, 2 </CLRA_>
+<CLRB_> 16, 560, 2 </CLRB_>
+<CLRC_> 16, 560, 2 </CLRC_>
+<CLRA_> 17, 625, 2 </CLRA_>
+<CLRB_> 17, 625, 0 </CLRB_>
+<CLRC_> 17, 625, 1 </CLRC_>
+<ERROR> P003 </ERROR>
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST>  Error
+Failed state: 5ù
+Press button to start test
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST> Heater
+<TEST> Lamps
+<TEST> Red BL
+<TEST> Blue BL
+<TEST> ALS
+<TEST> Pin I/O
+<TEST> Board Temp
+Testing Complete
+<TIME_sec> 52 </TIME_sec>
+<VDD> 526 </VDD>
+<VDR> 1199 </VDR>
+<BT > 65, 66, 1 </BT >
+<ALS> 14, 918, 1 </ALS>
+<BLR> 20, 1 </BLR>
+<BLB> 20, 1 </BLB>
+<PIN> 6, 1038, 1 </PIN>
+<PIN> 7, 1038, 1 </PIN>
+<PIN> 8, 1011, 1 </PIN>
+<PIN> 10, 1011, 1 </PIN>
+<PIN> 11, 992, 1 </PIN>
+<PIN> 12, 998, 1 </PIN>
+<PIN> 14, 1011, 1 </PIN>
+<PIN> 15, 967, 1 </PIN>
+<CLRA> 0, 750, 1 </CLRA>
+<CLRB> 0, 810, 2 </CLRB>
+<CLRC> 0, 615, 2 </CLRC>
+<CLRA> 1, 555, 2 </CLRA>
+<CLRB> 1, 555, 2 </CLRB>
+<CLRC> 1, 555, 2 </CLRC>
+<CLRA> 2, 605, 2 </CLRA>
+<CLRB> 2, 610, 2 </CLRB>
+<CLRC> 2, 610, 2 </CLRC>
+<CLRA> 3, 555, 2 </CLRA>
+<CLRB> 3, 555, 2 </CLRB>
+<CLRC> 3, 555, 2 </CLRC>
+<CLRA> 4, 555, 2 </CLRA>
+<CLRB> 4, 555, 2 </CLRB>
+<CLRC> 4, 555, 2 </CLRC>
+<CLRA> 5, 555, 2 </CLRA>
+<CLRB> 5, 555, 2 </CLRB>
+<CLRC> 5, 555, 0 </CLRC>
+<CLRA> 6, 555, 2 </CLRA>
+<CLRB> 6, 555, 2 </CLRB>
+<CLRC> 6, 555, 0 </CLRC>
+<CLRA> 7, 560, 2 </CLRA>
+<CLRB> 7, 560, 2 </CLRB>
+<CLRC> 7, 560, 0 </CLRC>
+<CLRA> 8, 565, 2 </CLRA>
+<CLRB> 8, 565, 0 </CLRB>
+<CLRC> 8, 565, 0 </CLRC>
+<CLRA> 9, 555, 2 </CLRA>
+<CLRB> 9, 555, 0 </CLRB>
+<CLRC> 9, 555, 2 </CLRC>
+<CLRA> 10, 610, 2 </CLRA>
+<CLRB> 10, 610, 2 </CLRB>
+<CLRC> 10, 610, 0 </CLRC>
+<CLRA> 11, 565, 2 </CLRA>
+<CLRB> 11, 565, 2 </CLRB>
+<CLRC> 11, 565, 2 </CLRC>
+<CLRA> 12, 555, 2 </CLRA>
+<CLRB> 12, 555, 2 </CLRB>
+<CLRC> 12, 555, 0 </CLRC>
+<CLRA> 13, 550, 2 </CLRA>
+<CLRB> 13, 550, 2 </CLRB>
+<CLRC> 13, 550, 2 </CLRC>
+<CLRA> 14, 550, 2 </CLRA>
+<CLRB> 14, 550, 2 </CLRB>
+<CLRC> 14, 550, 0 </CLRC>
+<CLRA> 15, 565, 2 </CLRA>
+<CLRB> 15, 565, 2 </CLRB>
+<CLRC> 15, 580, 2 </CLRC>
+<CLRA> 16, 560, 2 </CLRA>
+<CLRB> 16, 560, 2 </CLRB>
+<CLRC> 16, 560, 2 </CLRC>
+<CLRA> 17, 625, 2 </CLRA>
+<CLRB> 17, 625, 0 </CLRB>
+<CLRC> 17, 625, 1 </CLRC>
+<CLRA_> 15, 565, 2 </CLRA_>
+<CLRB_> 15, 565, 2 </CLRB_>
+<CLRC_> 15, 580, 2 </CLRC_>
+<CLRA_> 16, 560, 2 </CLRA_>
+<CLRB_> 16, 560, 2 </CLRB_>
+<CLRC_> 16, 560, 2 </CLRC_>
+<CLRA_> 17, 625, 2 </CLRA_>
+<CLRB_> 17, 625, 0 </CLRB_>
+<CLRC_> 17, 625, 1 </CLRC_>
+<ERROR> P003 </ERROR>
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST>  Error
+Failed state: 5ù
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST> Heater
+<TEST> Lamps
+<TEST> Red BL
+<TEST> Blue BL
+<TEST> ALS
+<TEST> Pin I/O
+<TEST> Board Temp
+Testing Complete
+<TIME_sec> 52 </TIME_sec>
+<VDD> 526 </VDD>
+<VDR> 1199 </VDR>
+<BT > 66, 67, 1 </BT >
+<ALS> 15, 920, 1 </ALS>
+<BLR> 20, 1 </BLR>
+<BLB> 20, 1 </BLB>
+<PIN> 6, 1057, 1 </PIN>
+<PIN> 7, 1051, 1 </PIN>
+<PIN> 8, 1023, 1 </PIN>
+<PIN> 10, 1018, 1 </PIN>
+<PIN> 11, 986, 1 </PIN>
+<PIN> 12, 986, 1 </PIN>
+<PIN> 14, 1029, 1 </PIN>
+<PIN> 15, 960, 1 </PIN>
+<CLRA> 0, 750, 1 </CLRA>
+<CLRB> 0, 810, 2 </CLRB>
+<CLRC> 0, 615, 2 </CLRC>
+<CLRA> 1, 555, 2 </CLRA>
+<CLRB> 1, 555, 2 </CLRB>
+<CLRC> 1, 555, 2 </CLRC>
+<CLRA> 2, 600, 2 </CLRA>
+<CLRB> 2, 605, 2 </CLRB>
+<CLRC> 2, 605, 2 </CLRC>
+<CLRA> 3, 560, 2 </CLRA>
+<CLRB> 3, 560, 2 </CLRB>
+<CLRC> 3, 560, 2 </CLRC>
+<CLRA> 4, 560, 2 </CLRA>
+<CLRB> 4, 560, 2 </CLRB>
+<CLRC> 4, 560, 2 </CLRC>
+<CLRA> 5, 555, 2 </CLRA>
+<CLRB> 5, 555, 2 </CLRB>
+<CLRC> 5, 555, 0 </CLRC>
+<CLRA> 6, 555, 2 </CLRA>
+<CLRB> 6, 555, 2 </CLRB>
+<CLRC> 6, 555, 0 </CLRC>
+<CLRA> 7, 565, 2 </CLRA>
+<CLRB> 7, 565, 2 </CLRB>
+<CLRC> 7, 565, 0 </CLRC>
+<CLRA> 8, 565, 2 </CLRA>
+<CLRB> 8, 565, 0 </CLRB>
+<CLRC> 8, 565, 0 </CLRC>
+<CLRA> 9, 555, 2 </CLRA>
+<CLRB> 9, 555, 0 </CLRB>
+<CLRC> 9, 555, 2 </CLRC>
+<CLRA> 10, 605, 2 </CLRA>
+<CLRB> 10, 605, 2 </CLRB>
+<CLRC> 10, 605, 0 </CLRC>
+<CLRA> 11, 570, 2 </CLRA>
+<CLRB> 11, 570, 2 </CLRB>
+<CLRC> 11, 570, 2 </CLRC>
+<CLRA> 12, 560, 2 </CLRA>
+<CLRB> 12, 560, 2 </CLRB>
+<CLRC> 12, 560, 0 </CLRC>
+<CLRA> 13, 550, 2 </CLRA>
+<CLRB> 13, 550, 2 </CLRB>
+<CLRC> 13, 555, 2 </CLRC>
+<CLRA> 14, 555, 2 </CLRA>
+<CLRB> 14, 555, 2 </CLRB>
+<CLRC> 14, 555, 0 </CLRC>
+<CLRA> 15, 565, 2 </CLRA>
+<CLRB> 15, 565, 2 </CLRB>
+<CLRC> 15, 580, 2 </CLRC>
+<CLRA> 16, 565, 2 </CLRA>
+<CLRB> 16, 565, 2 </CLRB>
+<CLRC> 16, 565, 2 </CLRC>
+<CLRA> 17, 630, 2 </CLRA>
+<CLRB> 17, 630, 0 </CLRB>
+<CLRC> 17, 630, 1 </CLRC>
+<CLRA_> 15, 565, 2 </CLRA_>
+<CLRB_> 15, 565, 2 </CLRB_>
+<CLRC_> 15, 580, 2 </CLRC_>
+<CLRA_> 16, 565, 2 </CLRA_>
+<CLRB_> 16, 565, 2 </CLRB_>
+<CLRC_> 16, 565, 2 </CLRC_>
+<CLRA_> 17, 630, 2 </CLRA_>
+<CLRB_> 17, 630, 0 </CLRB_>
+<CLRC_> 17, 630, 1 </CLRC_>
+<ERROR> P003 </ERROR>
+Programming... Complete
+<TEST> Power on
+<TEST> Manufacture
+<TEST>  Error
+Failed state: 5ù

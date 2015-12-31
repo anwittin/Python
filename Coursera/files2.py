@@ -4,13 +4,18 @@ fh = open(fname)
 count = 0
 add = 0
 for line in fh:
-    if not line.startswith("X-DSPAM-Confidence:") : continue 
+    if not line.startswith("<BT >") : continue 
     line = line.rstrip()
-    a = line.find(":")
-    num = float(line[a+1:])
-    add = num + add
-    count = count+1
-    avg = add/count
-
+    print line
+    a = line.find("> ")
+    print a
+    num = int(line[a+1:3])
+    print num
+    # add = num + add
+    # print add
+    # count = count+1
+    # print count
+    # avg = add/count
+    # print avg
     
-print "Average span confidence: ", avg
+# print "Average spam confidence: ", avg

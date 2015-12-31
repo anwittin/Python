@@ -6,7 +6,7 @@ def kitchen():
 	print "You're hungry. what do you do?"
 	print "cook | enter door"
 	
-	choice = raw_input("> ").upper()
+	choice = raw_input("> ").lower()
 		
 	if choice == 'cook':
 		print "Nice, hopefully you know what you're doing!\n"
@@ -87,9 +87,9 @@ def safe_room():
 def dead(why):
 	print why,"Good job! You're a zombie now."
 	print "Play again? Y / N"
-	choice = raw_input("> ").upper()
+	choice = raw_input("> ").lower()
 	
-	if choice == 'Y':
+	if choice == 'y':
 		start()
 	else:	
 		print "Thanks for playing"
@@ -98,8 +98,8 @@ def dead(why):
 def tomorrow(why):
 	print why, "\nWinner Winner not a zombie dinner!"
 	print "Play again? Y / N"
-	choice = raw_input("> ").upper()
-	if choice == 'Y':
+	choice = raw_input("> ").lower()
+	if choice == 'y':
 		start()
 	else:	
 		print "Thanks for playing"
