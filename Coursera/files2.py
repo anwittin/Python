@@ -12,5 +12,6 @@ for line in fh:
     count = count+1
     avg = add/count
 
-    
-print "Average span confidence: ", avg
+print count
+print add
+print "Average spam confidence: ", avg

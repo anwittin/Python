@@ -4,16 +4,20 @@ fh = open(name)
 counts = dict()
 
 for line in fh:
-	if not line.startswith("From ") : continue
-	tmp = line.split()[5:6]
-	w = ''.join(tmp).split(':')
-	words = w[0:1]
-	for word in words:
-		w = counts[word] = counts.get(word, 0) +1
-	for v,k in w [:10] :
-		print sorted( [(k,v) for k,v in counts.items() ])
+    if not line.startswith("From ") : continue
+    tmp = line.split()[5:6]
+    w = ''.join(tmp).split(':')
+    words = w[0:1]
+    
+    for word in words:
+        counts[word] = counts.get(word, 0) +1
+        sort = counts.items()
+        sort.sort()
+for k,v in sort:
+    print k,v        	
+#print sorted( [(k,v) for k,v in counts.items() ])
 
-print sorts[1:-1]
+#print txt
 # lst = list()
 # for k,v in counts.items():
 	# lst.append((v,k))
